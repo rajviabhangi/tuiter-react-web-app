@@ -41,7 +41,8 @@
     align-items: center;
     color: white;
     border-bottom: solid;
-    border-color: rgb(110, 118, 125);;
+    border-color: rgb(110, 118, 125);
+    margin-bottom: 15px;
 }
 
 .wd-tablink {
@@ -59,8 +60,8 @@
 
 .wd-list-post {
     padding-top: 5px;
-    border-top: solid;
     border-bottom: solid;
+    border-color: rgb(110, 118, 125);
 }
 
 .wd-post {
@@ -78,3 +79,29 @@
     color: white;
     margin: 2px;
 }
+
+.wd-author {
+    font-size: 13px;
+    color: white;
+    margin: 2px;
+}
+
+.wd-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.wd-float-post {
+    float: left;
+}
+
+.wd-image {
+    float: right;
+    padding-right: 16px;
+}
+
+.wd-float-done {
+    clear: both;
+ }
+ 

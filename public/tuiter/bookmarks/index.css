@@ -1,0 +1,26 @@
+.wd-body {
+    background-color: black;
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.wd-title {
+    padding-left: 16px;
+    padding-top: 12px;
+}
+
+.wd-dimmed {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+    /* margin: 2px; */
+}
+
+.wd-bookmark-title {
+    font-size: 20px;
+    color: white;
+}
