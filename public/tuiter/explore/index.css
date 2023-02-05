@@ -13,7 +13,7 @@
 .wd-searchbar {
     border-radius: 50px;
     padding-left: 50px;
-    width: 90%;
+    width: 80vw;
     height: 25px;
     color: white;
     background-color: rgb(61, 60, 60);
@@ -78,6 +78,7 @@
     font-size: 16px;
     color: white;
     margin: 2px;
+    width: 80vw;
 }
 
 .wd-author {
@@ -99,6 +100,7 @@
 .wd-image {
     float: right;
     padding-right: 16px;
+    padding-left: 20px;
 }
 
 .wd-float-done {
