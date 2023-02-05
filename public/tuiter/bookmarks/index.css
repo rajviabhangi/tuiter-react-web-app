@@ -12,15 +12,118 @@
 .wd-title {
     padding-left: 16px;
     padding-top: 12px;
+    border-bottom: solid;
+    border-color: rgb(47, 51, 54);
+    padding-bottom: 12px;
 }
 
 .wd-dimmed {
     font-size: 13px;
     color: rgb(110, 118, 125);
+    margin-top: 0;
+    margin-bottom: 0;
     /* margin: 2px; */
 }
 
 .wd-bookmark-title {
     font-size: 20px;
     color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.wd-body-container {
+    display: flex;
+    padding-left: 16px;
+    padding-top: 12px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.wd-avatar {
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+}
+
+.wd-content {
+    color: white;
+    padding-left: 12px;
+}
+
+.wd-handle { 
+    font-size: 15px;
+}
+
+.wd-para {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    max-width: 506px;
+}
+
+.wd-para-content {
+    margin-bottom: 12px;
+}
+
+.wd-card {
+    border-radius: 20px;
+    margin-top: 12px;
+    color: rgb(110, 118, 125);
+    border: solid;
+    border-width: 1px;
+    height: fit-content;
+    width: 504px;
+}
+
+.wd-card-img {
+    width: 504px;
+    height: 264px;
+    margin-bottom: 12px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.wd-card-para {
+    font-size: 15px;
+    padding: 12px;
+    padding-top: 0;
+    margin-top: 0;
+    color: rgb(110, 118, 125);
+    margin-bottom: 0;
+}
+
+.wd-card-para-title {
+    color: white;
+    padding: 12px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.wd-icons {
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+    color: rgb(110, 118, 125);
+}
+
+.wd-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(110, 118, 125);
+    text-decoration: none;
+}
+
+.wd-like {
+    color: #BB0D0D;
+}
+
+.wd-icon {
+    margin-right: 12px;
 }
