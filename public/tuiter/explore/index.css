@@ -1,11 +1,13 @@
 .rounded-btn {
     border-radius: 25px;
     width: inherit;
+    background-color: black;
 }
 
 .rounded-btn-tuit {
     border-radius: 25px;
     width: -webkit-fill-available;
+    background-color: rgb(29, 161, 242);;
 }
 
 .who-to-follow {
@@ -16,19 +18,31 @@
 
 .search-btn-group {
     border-radius: 25px;
-    background-color: white;
+    background-color: rgba(172, 172, 172, 0.11);
+    border-width: 0;
+    padding: 12px;
 }
 
 .no-border-right {
-    border-right-style: none;
+    border-right-width: 0;
+    background-color: rgba(172, 172, 172, 0.11);
+}
+
+.no-border {
+    border-width: 0;
 }
 
 .no-border-left {
-    border-left-style: none;
+    border-left-width: 0;
+    background-color: rgba(172, 172, 172, 0.11);
 }
 
 .blue-color {
     color: rgb(28, 91, 227);
+}
+
+.black-color {
+    color: black;
 }
 
 .main-content-img {
@@ -48,4 +62,64 @@
     bottom: 8px;
     left: 16px;
     color: white;
-  }
+}
+
+.twitter-blue { 
+    color: rgb(29, 161, 242);
+}
+
+.sidebar-container { 
+    border: 0;
+}
+
+.sidebar-list-item {
+    border: 0;
+    padding: 5px;
+    margin: 3px;
+    font-size: large;
+}
+
+.sidebar-active {
+    font-weight: bold;
+}
+
+.right-bar {
+    border: 0;
+    color: rgba(172, 172, 172, 0.11);
+    border-radius: 20px;
+}
+
+.right-bar-item {
+    border: 0;
+    background-color: rgba(172, 172, 172, 0.11);
+}
+
+.search-bar {
+    width: 90%;
+}
+
+.active-tab {
+    height: 5px;
+    background-color: rgb(29, 161, 242);
+    width: 60%;
+    border-radius: 3px;
+}
+
+.active-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content-container {
+    border-right: solid;
+    border-left: solid;
+    padding: 0;
+    border-width: 1px;
+    border-color: #dcdcdcd9;
+}
+
+.search-bar-container {
+    padding: 12px;
+}
