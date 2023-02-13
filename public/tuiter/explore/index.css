@@ -6,7 +6,7 @@
 
 .rounded-btn-tuit {
     border-radius: 25px;
-    width: -webkit-fill-available;
+    width: 100%;
     background-color: rgb(29, 161, 242);;
 }
 
@@ -47,7 +47,7 @@
 
 .main-content-img {
     display: flex;
-    width: -webkit-fill-available;
+    width: 100%;
 
 }
 
@@ -74,7 +74,7 @@
 
 .sidebar-list-item {
     border: 0;
-    padding: 5px;
+    padding: 20px;
     margin: 3px;
     font-size: large;
 }
