@@ -1,12 +1,13 @@
 .rounded-btn {
     border-radius: 25px;
     width: inherit;
+    background-color: black;
 }
 
 .rounded-btn-tuit {
     border-radius: 25px;
     width: 100%;
-    background-color: rgb(29, 161, 242);
+    background-color: rgb(29, 161, 242);;
 }
 
 .who-to-follow {
@@ -63,11 +64,11 @@
     color: white;
 }
 
-.twitter-blue {
+.twitter-blue { 
     color: rgb(29, 161, 242);
 }
 
-.sidebar-container {
+.sidebar-container { 
     border: 0;
 }
 
@@ -101,7 +102,6 @@
     background-color: rgb(29, 161, 242);
     width: 60%;
     border-radius: 3px;
-    color: rgb(29, 161, 242);
 }
 
 .active-nav {
@@ -121,10 +121,4 @@
 
 .search-bar-container {
     padding: 12px;
-}
-
-.img-container {
-    position: relative;
-    text-align: center;
-    color: white;
 }
