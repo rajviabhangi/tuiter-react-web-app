@@ -10,6 +10,10 @@
     background-color: rgb(29, 161, 242);;
 }
 
+.text-white {
+    color: white;
+}
+
 .who-to-follow {
     width: 48px;
     height: 48px;

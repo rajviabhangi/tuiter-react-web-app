@@ -7,11 +7,11 @@ const ExploreComponent = () => {
         <div class="d-flex align-items-center justify-content-between">
             <div class="input-group me-2 search-bar">
                 <span class="input-group-text search-btn-group no-border" id="basic-addon1"><i
-                        class="fa-solid fa-magnifying-glass"></i></span>
+                        class="fa-solid fa-magnifying-glass text-muted"></i></span>
                 <input type="text" class="form-control search-btn-group no-border"
                     placeholder="Search Tuiter" aria-label="Search" aria-describedby="basic-addon1">
             </div>
-            <a href="explore-settings.html" class="black-color"><i class="fa-solid fa-gear fa-lg"></i></a>
+            <a href="explore-settings.html" class="black-color"><i class="fa-solid fa-gear fa-xl twitter-blue"></i></a>
         </div>
     </div>
 
@@ -40,7 +40,7 @@ const ExploreComponent = () => {
     <div>
     <div class="img-container">
         <img class="main-content-img" src="../../images/starship.jpg">
-        <div class="bottom-left-text fw-bold fs-3">SpaceX's Starship</div>
+        <div class="bottom-left-text fw-bold fs-3 text-muted">SpaceX's Starship</div>
     </div>
     ${PostSummaryList()}
     </div>
