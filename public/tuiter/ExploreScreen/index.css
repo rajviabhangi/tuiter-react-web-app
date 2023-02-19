@@ -79,6 +79,7 @@
 
 .sidebar-active {
     font-weight: bold;
+    background-color: rgb(29, 161, 242);
 }
 
 .right-bar {

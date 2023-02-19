@@ -1,12 +1,12 @@
-const NavigationSidebar = () => {
+const NavigationSidebar = (active) => {
     return (`
     <div class="list-group">
         <a class="list-group-item d-flex justify-content-start align-items-center sidebar-list-item text-white p-xl-20" href="/"><i class="fab fa-twitter"></i></a>
-        <a class="list-group-item d-flex justify-content-start align-items-center sidebar-list-item text-white p-xl-20" href="#">
+        <a class="list-group-item ${active === 'home' && 'sidebar-active'} d-flex justify-content-start align-items-center sidebar-list-item text-white p-xl-20" href="../HomeScreen/index.html">
             <i class="fa fa-home fa-lg"></i><span class="d-none d-xl-block ms-3"> Home</span>
         </a>
-        <a class="list-group-item sidebar-active d-flex justify-content-start align-items-center text-white sidebar-list-item p-xl-20 bg-primary"
-            href="#">
+        <a class="list-group-item ${active === 'explore' && 'sidebar-active'} d-flex justify-content-start align-items-center text-white sidebar-list-item p-xl-20"
+            href="../ExploreScreen/index.html">
             <i class="fa fa-hashtag fa-lg fa-regular"></i> <span class="d-none d-xl-block ms-3"> Explore</span>
         </a>
         <a class="list-group-item d-flex justify-content-start align-items-center sidebar-list-item text-white p-xl-20"

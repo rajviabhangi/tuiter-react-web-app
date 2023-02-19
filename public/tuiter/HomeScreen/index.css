@@ -1,0 +1,151 @@
+.rounded-btn {
+    border-radius: 25px;
+    width: inherit;
+}
+
+.rounded-btn-tuit {
+    border-radius: 25px;
+    width: 100%;
+    background-color: rgb(29, 161, 242);
+}
+
+.who-to-follow {
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+}
+
+.search-btn-group {
+    border-radius: 25px;
+    background-color: white;
+    border-width: 0;
+    padding: 12px;
+}
+
+.no-border-right {
+    border-right-width: 0;
+    background-color: rgba(172, 172, 172, 0.11);
+}
+
+.no-border {
+    border-width: 0;
+}
+
+.no-border-left {
+    border-left-width: 0;
+    background-color: rgba(172, 172, 172, 0.11);
+}
+
+.blue-color {
+    color: rgb(28, 91, 227);
+}
+
+.black-color {
+    color: black;
+}
+
+.main-content-img {
+    display: flex;
+    width: 100%;
+
+}
+
+.main-content-images {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.bottom-left-text {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+}
+
+.twitter-blue {
+    color: rgb(29, 161, 242);
+}
+
+.sidebar-container {
+    border: 0;
+}
+
+.sidebar-list-item {
+    border: 0;
+    padding: 20px;
+    font-size: large;
+}
+
+.sidebar-active {
+    font-weight: bold;
+    background-color: rgb(29, 161, 242);
+}
+
+.right-bar {
+    border: 0;
+    color: rgba(172, 172, 172, 0.11);
+    border-radius: 20px;
+}
+
+.right-bar-item {
+    border: 0;
+    background-color: rgba(172, 172, 172, 0.11);
+}
+
+.search-bar {
+    width: 90%;
+}
+
+.active-tab {
+    height: 5px;
+    background-color: rgb(29, 161, 242);
+    width: 60%;
+    border-radius: 3px;
+    color: rgb(29, 161, 242);
+}
+
+.active-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content-container {
+    border-right: solid;
+    border-left: solid;
+    padding: 0;
+    border-width: 1px;
+    border-color: #dcdcdcd9;
+}
+
+.search-bar-container {
+    padding: 12px;
+}
+
+.img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.wd-post-image {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.wd-post-card-container {
+    border-radius: 25px;
+    border-color: #565656d9;
+}
+
+.wd-post-card-img {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.wd-post-list-item {
+    border-bottom-color: #565656d9;
+}

@@ -1,0 +1,14 @@
+.wd-post-image {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.wd-post-card-container {
+    border-radius: 25px;
+}
+
+.wd-post-card-img {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
