@@ -7,7 +7,7 @@ const PostItem = (post) => {
         <div>
             <div class="d-flex flex-column justify-content-center align-items-begin">
                 <div class="mx-3">
-                    <b>${post.handle}</b> <i class="fa-solid fa-circle-check"></i> <span class="text-muted">@${post.handle}
+                    <b>${post.userName}</b> <i class="fa-solid fa-circle-check"></i> <span class="text-muted">@${post.handle}
                         - ${post.time}</span>
                 </div>
                 <div class="mx-3">
@@ -21,7 +21,7 @@ const PostItem = (post) => {
                         <p class="card-text text-muted">${post.description}</p>
                     </div>
                 </div>
-                <div class="d-flex justify-content-between align-items-center mx-3" style="width: 80%;">
+                <div class="d-flex justify-content-between align-items-center mx-3 text-muted" style="width: 80%;">
                     <div><i class="fa-regular fa-comment"></i> ${post.comment}</div>
                     <div><i class="fa-solid fa-retweet"></i> ${post.retweet}</div>
                     <div><i class="fa-regular fa-heart"></i> ${post.likes}</div>

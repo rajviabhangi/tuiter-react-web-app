@@ -72,9 +72,11 @@
 }
 
 .sidebar-list-item {
-    border: 0;
     padding: 20px;
     font-size: large;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #565656d9;
 }
 
 .sidebar-active {
