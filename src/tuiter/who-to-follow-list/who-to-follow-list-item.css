@@ -1,0 +1,22 @@
+.right-bar {
+    border: 0;
+    color: rgba(172, 172, 172, 0.11);
+    border-radius: 20px;
+}
+
+.rounded-btn {
+    border-radius: 50px;
+    width: inherit;
+}
+
+.rounded-btn-tuit {
+    border-radius: 25px;
+    width: 100%;
+    background-color: rgb(29, 161, 242);
+}
+
+.who-to-follow {
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+}
