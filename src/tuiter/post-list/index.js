@@ -5,7 +5,7 @@ import posts from './posts.json';
 function PostList() {
   return (
     <>
-        <ul class="list-group">
+        <ul className="list-group">
             { posts.map(p => <PostItem post={p} key={p._id}/>) }
         </ul>
     </>
