@@ -9,7 +9,7 @@ library.add(faHouse, faDove, faHashtag, faBell, faEnvelope, faBookmark, faList, 
 const NavigationSidebar = () => {
     const {pathname} = useLocation();
     const paths = pathname.split('/')
-    const active = paths[2];
+    const active = paths[2] || 'home';
     return (
         <div className="list-group">
             <a className="list-group-item d-flex justify-content-start align-items-center sidebar-list-item p-xl-20" href="/">
