@@ -37,9 +37,9 @@ const NavigationSidebar = () => {
             <a className={`list-group-item ${active === 'lists' ? 'active' : ''} d-flex justify-content-start align-items-center sidebar-list-item p-xl-20`}>
                 <FontAwesomeIcon icon="fa-solid fa-list" /> <span className="d-none d-xl-block ms-3"> Lists</span>
             </a>
-            <a className={`list-group-item ${active === 'profile' ? 'active' : ''} d-flex justify-content-start align-items-center sidebar-list-item p-xl-20`}>
+            <Link to='/tuiter/profile' className={`list-group-item ${active === 'profile' ? 'active' : ''} d-flex justify-content-start align-items-center sidebar-list-item p-xl-20`}>
                 <FontAwesomeIcon icon="fa-solid fa-user" /> <span className="d-none d-xl-block ms-3"> Profile</span>
-            </a>
+            </Link>
             <a className={`list-group-item ${active === 'more' ? 'active' : ''} d-flex justify-content-start align-items-center sidebar-list-item p-xl-20`}>
                 <FontAwesomeIcon icon="fa-solid fa-ellipsis" /> <span className="d-none d-xl-block ms-3"> More</span>
             </a>
