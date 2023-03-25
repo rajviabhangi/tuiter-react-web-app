@@ -6,7 +6,12 @@ const setProfile = createAction('SET_PROFILE');
 const profileReducer = createReducer(profile, (builder) => {
     builder
     .addCase(setProfile, (state, action) => {
-        state = action.payload;
+        console.log('setProfile reducer called', action.payload);
+        console.log('state', state);
+        return {
+            ...state,
+            ...action.payload
+        };
     })
 })
 

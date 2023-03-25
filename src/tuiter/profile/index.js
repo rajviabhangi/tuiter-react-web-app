@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 library.add(faLocationDot, faCakeCandles, faCalendarDays);
 
 function ProfileComponent() {
-    const profile = useSelector(state => state.profile)
+    const profile = useSelector(state => state.profile);
     const styles = {
         imgContainer: { position: "relative", textAlign: "center", color: "white", marginBottom: "10px" },
         mainContentImg: { display: "flex", width: "100%", height: "256px" },
