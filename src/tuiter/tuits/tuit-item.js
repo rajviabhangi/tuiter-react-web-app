@@ -6,7 +6,7 @@ import { faComment, faHeart } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import TuitStats from "./tuit-stats";
 import { useDispatch } from "react-redux";
-import { deleteTuit } from "./tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 library.add(faComment, faRetweet, faHeart, faUpload, faCircleCheck)
 
@@ -15,7 +15,7 @@ const TuitItem = (
 ) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-        dispatch(deleteTuit(id));
+        dispatch(deleteTuitThunk(id));
     }
     return (
         <li className="list-group-item d-flex justify-content-center align-items-begin wd-post-list-item">
@@ -34,7 +34,7 @@ const TuitItem = (
                     <div className="mx-3 mb-3">
                         {tuit.tuit}
                     </div>
-                    <TuitStats replies={tuit.replies} retuits={tuit.retuits} likes={tuit.likes} liked={tuit.liked} />
+                    <TuitStats tuit={tuit} replies={tuit.replies} retuits={tuit.retuits} likes={tuit.likes} liked={tuit.liked} />
                 </div>
             </div>
         </li>
